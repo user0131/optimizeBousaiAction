@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "owl"
+version = "0.1.0"
+description = ""
+authors = ["user0131 <stbq475314@gmail.com>"]
+readme = "README.md"
+packages = [{include = "owl", from = "src"}]
+include = ["NotoSansJP-Regular.ttf"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pygame = "^2.1"
+numpy = "^1.21"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

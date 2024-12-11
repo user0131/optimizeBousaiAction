@@ -5,13 +5,17 @@ description = ""
 authors = ["user0131 <stbq475314@gmail.com>"]
 readme = "README.md"
 packages = [{include = "owl", from = "src"}]
-include = ["NotoSansJP-Regular.ttf"]
+include = ["NotoSansJP-Regular.otf"]
 
 [tool.poetry.dependencies]
 python = "^3.12"
 pygame = "^2.1"
 numpy = "^1.21"
+Pillow = "^9.0"
+python-dotenv = "^1.0.1"
+
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
